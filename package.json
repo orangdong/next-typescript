@@ -1,6 +1,20 @@
 {
   "name": "next-typescript",
   "private": true,
+  "description": "Next typescript learning project",
+  "version": "1.0.0",
+  "main": "next.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orangdong/next-typescript.git"
+  },
+  "keywords": [],
+  "author": "Aviel Naftali",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/orangdong/next-typescript/issues"
+  },
+  "homepage": "https://github.com/orangdong/next-typescript#readme",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
