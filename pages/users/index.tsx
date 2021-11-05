@@ -1,5 +1,7 @@
 export default function Users() {
   return (
-    <div />
+    <>
+      <p>Ini halaman users</p>
+    </>
   );
 }
