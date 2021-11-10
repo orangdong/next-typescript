@@ -1,19 +1,19 @@
 import Link from 'next/link';
+import style from './Header.module.css';
 
 export default function Header() {
   return (
     <header>
-      <ul style={{
-        listStyleType: 'none',
-        display: 'flex',
-        justifyContent: 'space-between',
-        width: `${300}px`,
-      }}
-      >
-        <li><Link href="/"><a>Home</a></Link></li>
-        <li><Link href="/blog"><a>Blog</a></Link></li>
-        <li><Link href="/users"><a>Users</a></Link></li>
-      </ul>
+      <div className={style.navigation}>
+        <div className={style.logo}>
+          Logo
+        </div>
+        <div className={style['nav-item']}>
+          <Link href="/"><a className={style['nav-link']}>Home</a></Link>
+          <Link href="/blog"><a className={style['nav-link']}>Blog</a></Link>
+          <Link href="/users"><a className={style['nav-link']}>Users</a></Link>
+        </div>
+      </div>
     </header>
   );
 }

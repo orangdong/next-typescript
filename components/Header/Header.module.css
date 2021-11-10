@@ -1,0 +1,27 @@
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.logo{
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.nav-item{
+    display: flex;
+    width: 15%;
+    font-size: 14px;
+    justify-content: space-between;
+    font-weight: 500;
+    
+}
+
+.nav-link:hover{
+    text-decoration: underline;;
+}
