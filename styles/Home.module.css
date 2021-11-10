@@ -104,7 +104,18 @@
 }
 
 .home-title{
-  color: aqua;
+  font-size: 28px;
+}
+
+.subtitle{
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: -1rem;
+}
+
+.subheading{
+  font-size: 22px;
+  font-weight: 600;
 }
 
 .logo {
