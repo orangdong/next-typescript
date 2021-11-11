@@ -123,6 +123,27 @@
   margin-left: 0.5rem;
 }
 
+.postImage {
+  border-radius: 5px;
+}
+
+.postTitle {
+  font-size: 14px;
+  font-weight: 500;
+ margin-top: -0.1rem;
+}
+
+.postsContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.posts{
+  width: 300px;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
