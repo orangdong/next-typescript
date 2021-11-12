@@ -21,7 +21,7 @@ export default function Users(props: UsersData) {
       </div>
       <div className={`${'mb-1'}`}>
         {users.map((user) => (
-          <li className={style['user-link']} key={user.id} onClick={() => router.push(`/users/${user.id}`)}>{user.name}</li>
+          <li className={style['user-link']} aria-hidden="true" key={user.id} onClick={() => router.push(`/users/${user.id}`)}>{user.name}</li>
         ))}
       </div>
     </Layout>
