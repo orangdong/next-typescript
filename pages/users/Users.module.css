@@ -1,0 +1,7 @@
+.user-link{
+    cursor: pointer;
+}
+
+.user-link:hover{
+    text-decoration: underline;
+}
