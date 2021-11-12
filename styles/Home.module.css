@@ -144,6 +144,13 @@
   width: 300px;
 }
 
+.blog{
+  border: 1px solid rgb(72, 72, 72);
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
